@@ -5,15 +5,15 @@ Martha is a senior manager for the Advisory Services Team at Accountability Acco
 
 The data Martha will be working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
 
-# Deliverable 1 
+# Deliverable 1: Preprocessing the Data for PCA
 Using your knowledge of Pandas, you’ll preprocess the dataset in order to perform PCA in Deliverable 2.
 
-# Deliverable 2 
+# Deliverable 2: Reducing Data Dimensions Using PCA
 Using your knowledge of how to apply the Principal Component Analysis (PCA) algorithm, you’ll reduce the dimensions of the X DataFrame to three principal components and place these dimensions in a new DataFrame.
 
-# Deliverable 3 
+# Deliverable 3: Clustering Cryptocurrencies Using K-means
 Using your knowledge of the K-means algorithm, you’ll create an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created in Deliverable 2. Then, you’ll run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data.
 
-# Deliverable 4
+# Deliverable 4: Visualizing Cryptocurrencies Results
 Using your knowledge of creating scatter plots with Plotly Express and hvplot, you’ll visualize the distinct groups that correspond to the three principal components you created in Deliverable 2, then you’ll create a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
 
